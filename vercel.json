@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "pnpm build",
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
@@ -22,7 +22,7 @@
     "VITE_ANALYTICS_ENDPOINT": "@vite_analytics_endpoint",
     "VITE_ANALYTICS_WEBSITE_ID": "@vite_analytics_website_id"
   },
-  "buildOutputDirectory": "dist",
+  "outputDirectory": "dist",
   "functions": {
     "server/**/*.ts": {
       "runtime": "nodejs20.x"
